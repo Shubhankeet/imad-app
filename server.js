@@ -5,8 +5,8 @@ var path = require('path');
 var Pool = require('pg').Pool;
 
 var config = {
-    user: 'piyalde2009',
-    database: 'piyalde2009',
+    user: 'senapati923',
+    database: 'senapati923',
     host: 'db.imad.hasura-app.io',
     port: '5432',
     password: process.env.DB_PASSWORD
@@ -18,7 +18,7 @@ app.use(morgan('combined'));
 var articles={
     
 'article-one':{
-    title: 'Article-one | Piyal De',
+    title: 'Article-one | Shubhankeet Senapati',
     heading: 'Rafa: The Rising Star',
     date: 'August 15, 2017',
     content:`<img src="https://i.pinimg.com/originals/a7/fa/9d/a7fa9d9dac92aff77a8735a089cdac11.jpg" class="img-medium" />
@@ -32,7 +32,7 @@ var articles={
 },
 
 'article-two':{
-    title: 'Article-two | Piyal De',
+    title: 'Article-two | Shubhankeet Senapati',
     heading: 'Article two',
     date: 'August 25, 2017',
     content:`	<p>
@@ -49,7 +49,7 @@ var articles={
 },
 
 'article-three':{
-    title: 'Article-three | Piyal De',
+    title: 'Article-three | Shubhnakeet Senapati',
     heading: 'Article three',
     date: 'August 30, 2017',
     content:`	<p>
